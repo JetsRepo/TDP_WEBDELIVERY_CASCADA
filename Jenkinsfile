@@ -19,7 +19,7 @@ pipeline {
        stage('Versioning') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/TSOFT-AUTO-PE/TDP_WEBDELIVERY_CASCADA.git'
+            git 'https://github.com/JetsRepo/TDP_WEBDELIVERY_CASCADA.git'
             }
         }
               stage('Update DATA') {
